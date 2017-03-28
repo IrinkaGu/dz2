@@ -2,10 +2,7 @@ const Pokemon = require('../class/pokemon');
 const random = require('../modules/random');
 
 class PokemonList  extends Array{
-	constructor(...pokemons){
-		 super(...pokemons);
-	}
-	
+
 	add(name, level){
 		let pokemon = new Pokemon (name, level); 
 		this.push(pokemon);

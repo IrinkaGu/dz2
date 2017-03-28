@@ -5,8 +5,7 @@ class Pokemon {
 	}
 	
 	show(){
-		let info = this.name+" - "+this.level;
-		console.log(info);
+		console.log(`${this.name} - ${this.level}`);
 	}
 	
 	valueOf() {
